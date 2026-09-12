@@ -2,96 +2,72 @@
 
 
 
-# [Project Name] 🎯
+# Falling Sand Sim 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Imthias
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Imthias - RIT
 
 ### Project Description
-[2-3 lines about what your project does]
+
+Project is about simulating sand in a 2d dimension, along with water and solid walls, and each of their interaction with each other, using simple rules, now you can watch falling sand, water that levels itself just like in real world all implemented in C and graphics library raylib.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+couldnt play with huge amount of sand as they are heavy and suffocate you, neither was water, anyone could wish there just was a simulator on how sand and water behave against each other and with a solid surface of any shape :(
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+so i made a simulation to simulate sand, it also simulate water as an added plus point, left click for creating sand, right click for creating solid objects, and right ctrl for producing water.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- C programming languange
+- no frameworks been used
+- raylib graphics library
+- gnu C compiler(gcc),makefile
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+gnu c compiler (gcc)
+makefile
+raylib graphics library
 
 # Run
-[commands]
+
+gcc main.c -o game -Wall -std=c99 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+./game
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![screenshot1](sand.png)
+hold left click to spawn sand
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](solid.png)
+you can create solid non movin object with right click of the mouse
+![Screenshot3](water.png)
+can create water by pressing right control button
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+![demo](demo.mp4)
+video showcasing what the software can do, it can create sand , solids, and water.
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
